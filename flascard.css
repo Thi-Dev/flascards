@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Protest+Strike&display=swap');
+
+
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.titel{
+    display: inline-flex;
+    justify-content: center;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+}
+#horizontal-line{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+    border-radius: 10px;
+}
+.all-card{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 400px ;
+    width: 800px;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+}
+.card{
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(159, 76, 76);
+    margin:20px;
+}
+
+.font-family{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size:36px;
+}
